@@ -32,9 +32,9 @@ const done = document.getElementById("realizadas");
 
 // Define las tareas iniciales
 let valores = [
-    { id: Date.now(), nombre: "hacer ejercicio", completada: false },
-    { id: Date.now() + 1, nombre: "Realizar el desafio", completada: true }, // Ejemplo completada
-    { id: Date.now() + 2, nombre: "Ver una Serie", completada: false }
+    { id: Date.now(), nombre: "Trotar 30 min", completada: false },
+    { id: Date.now() + 1, nombre: "tomar una siesta de 45 min", completada: true }, // Ejemplo completada
+    { id: Date.now() + 2, nombre: "hacer mercado", completada: false }
 ];
 
 function actualizar() {
